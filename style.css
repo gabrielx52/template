@@ -1,0 +1,60 @@
+nav, footer {
+    background-color: #0462b1;
+}
+
+nav h1 {
+    font-family: serif;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+nav sub {
+    bottom: -0.55em;
+    font-size: 1.5rem;
+    left: -1em;
+}
+
+.red {
+    color: red;
+}
+
+header {
+    background: linear-gradient( rgba(247, 249, 255, 0.02), rgba(4, 98, 177, 0.88) );
+    padding: 114px 0 80px;
+    border-bottom: 3px red solid;
+}
+
+header .btn {
+    width: 33%;
+}
+
+#cta-bar {
+    margin: auto;
+    width: 65%;
+}
+
+footer p {
+    color: white;
+}
+
+footer i {
+    color: #007bff;
+    /*color: red;*/
+    margin: 2px;
+}
+
+footer i:hover {
+    color: white;
+}
+
+
+#right-block {
+    background-color: #f8f9fa;
+    color: black;
+    border-radius: 8px;
+}
+
+#right-block .btn-outline-dark {
+    border-width: 2px;
+}

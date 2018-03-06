@@ -1,0 +1,143 @@
+<html>
+    <head>
+          <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- Font Awesome -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href='./style.css'>
+
+        <title>Main Page</title>
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><h1>Gore/<span class="red">Lieberman</span><sub>2000</sub></h1></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#cta-bar">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="bg-primary text-white row">
+            <div class="col-lg-3"></div>
+            <div class="container">
+                <div class="row my-4">
+                    <div class="col-lg-8 col-sm-6">
+                        <img class="img-fluid rounded" src="./AlGore_banner.jpg" alt="">
+                    </div>
+
+                    <div id="right-block" class="col-lg-4 col-sm-6">
+                        <h1>${city}, we need your help.</h1>
+                        <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
+                        <a class="btn btn-danger btn-lg" href="#">Donate</a>
+                        <a class="btn btn-outline-dark btn-lg" href="#">Volunteer</a> 
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="cta-bar" class="card text-white bg-secondary my-4 text-center">
+            <div class="card-body">
+                <p class="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2 class="mt-4">What We Do</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center mb-4">
+                    <img class="rounded-circle img-fluid d-block mx-auto" style="width:200px; height: 200px" src="${manager_headshot_url}" alt="">
+                    <h3>${manager_name}</h3>
+                    <p>${manager_bio}</p>
+                </div>
+                <div class="container mt-5" id="contact">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="card p-3 bg-light">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name">Name</label>
+                                                <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email">Email Address</label>
+                                                <div class="input-group">
+                                                    <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email">Email Address</label>
+                                                <div class="input-group">
+                                                    <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name">Message</label>
+                                                <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                                    placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">Send Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-3">
+                            <h2 class="mt-4">Contact Us</h2>
+                            <address>
+                                <strong>${location_name}</strong>
+                                <br>${street}
+                                <br>${city}, ${state} ${postal_code}
+                                <br>
+                            </address>
+                            <address>
+                                <abbr title="Phone">P:</abbr>
+                                ${phone}
+                                <br>
+                                <abbr title="Email">E:</abbr>
+                                <a href="mailto:#">${email}</a>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="py-5 mt-5">
+            <div class="container">
+                <div class="text-center center-block">
+                    <p>Stay Connected:</p>
+                        <a href="#"><i class="fa fa-facebook-square fa-3x social"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square fa-3x social"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-square fa-3x social"></i></a>
+                        <a href="#"><i class="fa fa-envelope-square fa-3x social"></i></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
