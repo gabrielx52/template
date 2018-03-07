@@ -31,6 +31,13 @@ header h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-family: 'Arvo', serif;
+    font-weight: 700;  
+    color: #368de4;
+    border-bottom: 2px #ff4444 solid;
+}
+
 #gore {
     padding: 0;
     width: 94%;
@@ -84,6 +91,15 @@ header h1 {
 #cite {
     font-family: 'Arvo', serif;
     font-size: .9rem;
+}
+
+#pitch {
+    padding: 0 2rem;
+}
+
+#pitch p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1rem;
 }
 
 #contact-form {
