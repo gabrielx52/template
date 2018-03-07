@@ -1,3 +1,6 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 nav, footer {
     background-color: #0462b1;
 }
@@ -57,7 +60,6 @@ header h1 {
 }
 
 #right-block a {
-    font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
 }
 
@@ -98,7 +100,6 @@ header h1 {
 }
 
 #pitch p {
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.1rem;
 }
 
