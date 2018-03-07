@@ -31,11 +31,11 @@ header h1 {
     font-weight: 700;
 }
 
-h2 {
+.blue-h2 {
     font-family: 'Arvo', serif;
-    font-weight: 700;  
-    color: #368de4;
-    border-bottom: 2px #ff4444 solid;
+    font-weight: 700;
+    color: #368de4!important;
+    border-bottom: 2px #ff4444 solid!important;
 }
 
 #gore {
