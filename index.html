@@ -2,13 +2,17 @@
     <head>
           <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
         <!-- Font Awesome -->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Arvo:400,700|Source+Sans+Pro" rel="stylesheet">
 
         <!-- CSS -->
         <link rel="stylesheet" href='./style.css'>
@@ -25,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#cta-bar">About</a>
+                            <a class="nav-link js-scroll-trigger" href="#about">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -36,23 +40,24 @@
         </nav>
         <header class="bg-primary text-white row">
             <div class="container">
-                <div class="row my-4">
-                    <div class="col-lg-8 col-sm-6">
+                <div class="row">
+                    <div id="gore" class="col-lg-8 col-md-12 col-sm-12">
                         <img class="img-fluid rounded" src="./AlGore_banner.jpg" alt="">
                     </div>
-
-                    <div id="right-block" class="col-lg-4 col-sm-6">
+                    <div id="right-block" class="col-lg-4 col-md-12 col-sm-12">
                         <h1>${city}, we need your help.</h1>
-                        <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
-                        <a class="btn btn-danger btn-lg" href="#">Donate</a>
-                        <a class="btn btn-outline-dark btn-lg" href="#">Volunteer</a> 
+                        <p>Election day is almost upon usand we're going to need all the assistance we can get. If you have the time or the resources please consider joining us in our effort.</p>
+                        <a class="btn btn-lg" href="#">Donate</a>
+                        <a class="btn btn-lg" href="#">Volunteer</a> 
                     </div>
                 </div>
             </div>
         </header>
-        <div id="cta-bar" class="card text-white bg-secondary my-4 text-center">
+        <a id="about">
+        <div id="cta-bar" class="card text-white my-4 col-lg-6 col-md-10 col-sm-10 text-center">
+        </a>
             <div class="card-body">
-                <p class="text-white m-0"><cite>`No matter how hard the loss, defeat might serve as well as victory to shake the soul and let the glory out.`</cite></p>
+                <p class="text-white m-0" id="cite">No matter how hard the loss, defeat might serve as well as victory to shake the soul and let the glory out.</p>
             </div>
         </div>
         <div class="container mt-5">
@@ -63,14 +68,15 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
                 </div>
                 <div class="col-lg-4 col-sm-6 text-center mb-4">
-                    <img class="rounded-circle img-fluid d-block mx-auto" style="width:200px; height: 200px" src="${custom_manager_headshot_url}" alt="">
+                    <img class="rounded-circle img-fluid d-block mx-auto" style="width:200px; height: 200px" src="/template/assets/${custom_manager_headshot_url}" alt="">
                     <h3>${custom_manager_name}</h3>
                     <p>${custom_manager_bio}</p>
                 </div>
-                <div class="container mt-5" id="contact">
+                <div class="container mt-5">
+                    <a id="contact"></a>
                     <div class="row">
                         <div class="col-md-8">
-                            <div class="card p-3 bg-light">
+                            <div id="contact-form" class="card p-3 bg-light">
                                 <form>
                                     <div class="row">
                                         <div class="col-md-6">
@@ -130,6 +136,7 @@
             <div class="container">
                 <div class="text-center center-block">
                     <p>Stay Connected:</p>
+                    <hr>
                         <a href="#"><i class="fa fa-facebook-square fa-3x social"></i></a>
                         <a href="#"><i class="fa fa-twitter-square fa-3x social"></i></a>
                         <a href="#"><i class="fa fa-google-plus-square fa-3x social"></i></a>
